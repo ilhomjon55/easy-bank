@@ -9,8 +9,9 @@
 </head>
 
 <body>
+  <h1 class="visually-hidden">EasyBank website`s main page</h1>
   <!--  ===== SITE-HEADER =====  -->
-  <header class="site__header">
+  <header class="site__header site__header--nojs">
     <!-- HEADER-CONTROL -->
     <div class="header__control">
       <div class="container">
@@ -20,6 +21,25 @@
         <button class="menu-button">
           <span class="menu-button__content"></span>
         </button>
+        <nav class="site__nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="#">Home</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">About</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Contact</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Blog</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Careers</a>
+            </li>
+          </ul>
+        </nav>
       </div><!-- container -->
     </div><!-- header__control -->
     <!-- HEADER-CONTENT -->
@@ -51,6 +71,20 @@
       </div><!-- container -->
     </div><!-- header__content -->
   </header>
+  <!--  ===== SITE-CONTENT =====  -->
+  <main class="site__content">
+    <section class="hero">
+      <div class="container">
+        <div class="hero__info">
+          <h2 class="hero__heading">Next generation digital banking</h2>
+          <p class="hero__text">
+            Take your financial life online. Your Easybank account will be a one-stop-shop for spending, saving,
+            budgeting, investing, and much more.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
 
 </html>
