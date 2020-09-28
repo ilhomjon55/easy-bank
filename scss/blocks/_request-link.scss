@@ -3,6 +3,7 @@
   padding: 8px 33px;
   padding-right: 36px;
   text-decoration: none;
+  text-transform: capitalize;
   font-weight: 500;
   font-size: 14px;
   line-height: 28px;
@@ -10,4 +11,8 @@
   white-space: nowrap;
   background-image: $main-linear-green;
   border-radius: 22px;
+}
+
+.request-link:hover {
+  opacity: 0.4;
 }
