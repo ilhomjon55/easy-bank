@@ -79,7 +79,7 @@
   opacity: 0.5;
 }
 
-@media (max-width: 800px) {
+@include breakpoint-down (800px) {
   .site__footer .container {
     justify-content: center;
   }
@@ -98,7 +98,7 @@
   }
 }
 
-@media (max-width: 610px) {
+@include breakpoint-down(610px) {
   .site__footer .container {
     flex-direction: column;
     align-items: center;
