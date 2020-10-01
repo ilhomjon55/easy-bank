@@ -1,5 +1,6 @@
 .site__header {
   position: fixed;
+  z-index: 10;
   top: 0;
   left: 0;
   width: 100%;
@@ -33,6 +34,9 @@
   align-items: center;
   justify-content: center;
   background-image: url("../img/icon-hamburger.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
 }
 
 .header__content .container {
@@ -100,6 +104,10 @@
   // MENU-BUTTON--ACTIVE
   .menu-button--active+.site__nav.site__nav {
     display: block;
+  }
+
+  .menu-button--active .menu-button__content {
+    background-image: url("../img/icon-close.svg");
   }
 
   .header__control .site__nav {

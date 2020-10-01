@@ -1,0 +1,36 @@
+.hero {
+  position: relative;
+  padding-top: 250px;
+  padding-bottom: 170px;
+  background-color: #f2f2f2f2;
+}
+
+.hero__info {
+  max-width: 450px;
+}
+
+.hero__heading {
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-weight: 100;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  color: #2D314D;
+}
+
+.hero__paragraph {
+  margin-top: 0;
+  margin-bottom: 36px;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.28125px;
+  color: #9597A5;
+}
+
+.hero__img {
+  position: absolute;
+  z-index: 1;
+  top: -235px;
+  left: calc(50% + -30px);
+}
