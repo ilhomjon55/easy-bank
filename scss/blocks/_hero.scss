@@ -17,16 +17,15 @@
   font-size: 56px;
   line-height: 64px;
   letter-spacing: -1px;
-  color: #2D314D;
+  color: $main-bright-cyan;
 }
 
 .hero__paragraph {
   margin-top: 0;
   margin-bottom: 36px;
-  font-size: 18px;
   line-height: 28px;
   letter-spacing: -0.28125px;
-  color: #9597A5;
+  color: $main-gray;
 }
 
 .hero__img {
