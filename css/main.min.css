@@ -142,13 +142,19 @@ img {
 .menu-button {
   background-color: transparent;
   border: none;
+  outline: none;
+  opacity: 0.8;
   cursor: pointer;
   margin-left: 15px;
 }
 
+.menu-button:focus {
+  opacity: 1;
+}
+
 .menu-button__content {
-  width: 24px;
-  height: 11px;
+  width: 25px;
+  height: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
