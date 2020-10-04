@@ -329,6 +329,7 @@ img {
   padding-top: 250px;
   padding-bottom: 170px;
   background-color: #f2f2f2f2;
+  overflow: hidden;
 }
 
 .hero__info {
